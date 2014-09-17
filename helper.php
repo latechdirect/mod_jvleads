@@ -21,7 +21,7 @@ class modHelloWorldHelper
      */    
     public static function getHello( $params )
     {
-        return 'Hello, World!';
+        return 'Hello, World. Im back!!';
     }
 }
 ?>
