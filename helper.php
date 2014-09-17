@@ -11,7 +11,7 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  */
-class modHelloWorldHelper
+class modJvLeadsHelper
 {
     /**
      * Retrieves the hello message
@@ -19,7 +19,7 @@ class modHelloWorldHelper
      * @param array $params An object containing the module parameters
      * @access public
      */    
-    public static function getHello( $params )
+    public static function getJvLeads( $params )
     {
         return 'Hello, World. Im back!!';
     }
