@@ -21,7 +21,7 @@ class modJvLeadsHelper
      */    
     public static function getJvLeads( $params )
     {
-        return 'Hello, World. Im back!! and now Updated.';
+        return '<iframe width="311" height="175" src="//www.youtube.com/embed/LDZX4ooRsWs" frameborder="0" allowfullscreen></iframe>';
     }
 }
 ?>
