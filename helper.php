@@ -21,7 +21,7 @@ class modJvLeadsHelper
      */    
     public static function getJvLeads( $params )
     {
-        return 'Hello, World. Im back!!';
+        return 'Hello, World. Im back!! and now Updated.';
     }
 }
 ?>
