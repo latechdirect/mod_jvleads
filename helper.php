@@ -23,36 +23,30 @@ class modJvLeadsHelper
     {
         return '<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-<div class="row example-row example-forms">
-<div class="col-lg-12"><h2>For More Information</h2>
-<div class="well">
-
- <form name="Contact Us" class="form-horizontal" action="http://latechdirect.com/service/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
- <input type="hidden" name="publicid" value="18fc99715e87673d28b83cdd00f38839">
- <input type="hidden" name="name" value="Contact Us">
- 
-  <fieldset name="jvleads">
-  <legend>Enter Your: </legend>
-  
-  <div class="form-group"><label for="inputLastName" class="col-lg-2 control-label" required="true">Last Name *</label>
-  <div class="col-lg-10"><input type="text" name="lastname" required class="form-control" id="inputLastName" placeholder="Last Name" /></div></div>
-  
-  <div class="form-group"><label for="inputFirstName" class="col-lg-2 control-label" required="true">First Name *</label>
-  <div class="col-lg-10"><input type="text" name="firstname" required class="form-control" id="inputFirstName" placeholder="First Name" /></div></div>
-  
-  <div class="form-group"><label for="email" class="col-lg-2 control-label" required="true">Email *</label>
-  <div class="col-lg-10"><input type="email" name="email" required class="form-control" id="email" placeholder="Email" /></div></div>
-  
-  <div class="form-group"><label for="description" class="col-lg-2 control-label">Description *</label>
-  <div class="col-lg-10"><textarea class="form-control" name="description" requiredrows="3" id="description"></textarea><span class="help-block">A longer block of help </span></div></div>
-
-  <div class="form-group">
-  <div class="col-lg-10 col-lg-offset-2"><button class="btn btn-default">Cancel</button><button type="submit" class="btn btn-primary">Submit</button></div></div>
-  </fieldset>
- </form>
-</div>
-</div>
-</div>';
+<form name="Contact Us" action="http://latechdirect.com/service//modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+	<input type="hidden" name="publicid" value="18fc99715e87673d28b83cdd00f38839">
+	<input type="hidden" name="name" value="Contact Us">
+	<table>
+<tbody><tr>
+<td><label>First Name*</label></td>
+<td>
+		<input type="text" name="firstname" value="" required="true"></td></tr>
+<tr>
+<td><label>Last Name*</label></td>
+<td>
+		<input type="text" name="lastname" value="" required="true"></td></tr>
+<tr>
+<td><label>Email*</label></td>
+<td>
+		<input type="email" name="email" value="" required="true"></td></tr>
+<tr>
+<td><label>Description*</label></td>
+<td>
+		<textarea name="description" required="true"></textarea>
+</td></tr>
+	</tbody></table>
+<input type="submit" value="Submit">
+</form>';
     }
 }
 ?>
