@@ -24,7 +24,7 @@ class modJvLeadsHelper
         return '<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 <form name="Contact Us" action="http://latechdirect.com/service//modules/Webforms/capture.php" method="post" accept-charset="utf-8">
-	<input type="hidden" name="publicid" value="18fc99715e87673d28b83cdd00f38839">
+	<input type="hidden" name="publicid" value="7fde3751db5fa0ccdf84887044b37f6c">
 	<input type="hidden" name="name" value="Contact Us">
 	<table>
 <tbody><tr>
