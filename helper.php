@@ -25,7 +25,7 @@ class modJvLeadsHelper
 
 <form name="Contact Us" action="http://latechdirect.com/service//modules/Webforms/capture.php" method="post" accept-charset="utf-8">
 	<input type="hidden" name="publicid" value="7fde3751db5fa0ccdf84887044b37f6c">
-	<input type="hidden" name="name" value="Contact Us">
+	<input type="hidden" name="name" value="Business Info">
 	<table>
 <tbody><tr>
 <td><label>First Name*</label></td>
