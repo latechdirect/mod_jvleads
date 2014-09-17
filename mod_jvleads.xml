@@ -2,13 +2,13 @@
 <extension 
 	version="3.1"
 	type="module">
-    <name>Hello, World!</name>
-    <author>John Doe</author>
+    <name>jVleads</name>
+    <author>Kevin Norman</author>
     <version>1.0.0</version>
-    <description>A simple Hello, World! module.</description>
+    <description>Module that captures Leads from your Joomla site into your vTiger CRM System</description>
 	<update></update>
     <files>
-        <filename module="mod_helloworld">mod_helloworld.php</filename>
+        <filename module="mod_jvleads">mod_jvleads.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
