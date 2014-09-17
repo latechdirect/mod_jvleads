@@ -13,5 +13,6 @@
         <filename>tmpl/index.html</filename>
     </files>
     <config>
+        <fields name="jvleads">
     </config>
 </extension>
