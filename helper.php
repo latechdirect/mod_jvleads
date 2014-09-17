@@ -21,18 +21,7 @@ class modJvLeadsHelper
      */    
     public static function getJvLeads( $params )
     {
-        return '<html>
-<head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-<!-- Example Form -->
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        return '<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 <div class="row example-row example-forms">
 <div class="col-lg-12"><h2>For More Information</h2>
@@ -63,11 +52,7 @@ class modJvLeadsHelper
  </form>
 </div>
 </div>
-</div>
-<!-- //Example Form -->
-</body>
-
-</html>';
+</div>';
     }
 }
 ?>
